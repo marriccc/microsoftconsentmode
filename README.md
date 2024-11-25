@@ -1,1 +1,1 @@
-# microsoftconsentmode https://marriccc.github.io/microsoftsconsentmode 
+# microsoftconsentmode [(https://marriccc.github.io/microsoftconsentmode/)]
