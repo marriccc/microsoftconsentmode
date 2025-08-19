@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Disable Microsoft UET script -->
+
  
 <!-- CMP v.3 script -->
-<script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="Uj-XIbY5SDWLxg" async></script>   
+<script id="usercentrics-cmp" src="https://web.cmp.usercentrics-sandbox.eu/ui/pr/1015/loader.js" data-settings-id="Uj-XIbY5SDWLxg" async></script>   
+ <script>
+      window.addEventListener('amznConsentChange', ({detail}) => {
+        console.log('EVENT: amznConsentChange');
+        console.log('Details: ', detail.consent);
+      })
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" , initial-scale="1.0">
